@@ -1,16 +1,5 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-@font-face {
-  font-family: "Hacen_Liner_Screen_Bd";
-  src: url(../dist/Hacen\ Liner\ Screen\ Bd.ttf);
-}
-
 body {
-  font-family: "Hacen_Liner_Screen_Bd", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #ebebeb;
   overflow-x: hidden;
   text-align: right;
@@ -97,20 +86,9 @@ nav.shift ul li a:hover:after {
 .swiper-container {
   height: 450px;
 }
-.slidey1 {
-  background-image: url(../dist/img/slider-01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.slidey2 {
-  background-image: url(../dist/img/slider-02.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.slidey3 {
-  background-image: url(../dist/img/slider-03.jpg);
-  background-position: center;
-  background-size: cover;
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
 }
 /* end carousel */
 .Aside {
@@ -283,6 +261,19 @@ nav.shift ul li a:hover:after {
   .col-5 {
     padding-left: 0;
   }
+  .swiper-container {
+    height: 210px;
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-inline-start: 15px;
+  }
+  .app p,
+  h4 {
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 /* contact us page */
@@ -420,23 +411,7 @@ a:hover {
 a.active {
   color: #2e2e2e;
 }
-nav {
-  padding: 2.5rem 0 2.5rem 0;
-}
-nav ul {
-  display: flex;
-  justify-content: flex-start;
-}
-nav li {
-  font-size: 1.25rem;
-}
-nav li:nth-child(2) {
-  margin: 0;
-}
-#highlight {
-  color: #ea8478;
-  font-size: 1.25rem;
-}
+
 .gallery {
   padding: 0 0 4rem 0;
 }
