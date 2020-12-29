@@ -129,3 +129,12 @@ $(document).ready(function () {
 })();
 
 app.init();
+
+(function ($) {
+  "use strict"
+  $('.side-btn').on('click', function (e) {
+   $('.headline').toggleClass('slideShow');
+    $('.headline i').addClass('fa-angle-double-right');
+    $('.headline i').removeClass('fa-angle-double-left');
+  });
+})(jQuery);
