@@ -12,10 +12,7 @@ body {
 }
 .overlay {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0px;
-  left: 0px;
+  inset: 0;
   display: block;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -641,6 +638,6 @@ a {
     width: 70%;
   }
 }
-.navy {
+/* .navy {
   background-color: #b2bec3;
-}
+} */
